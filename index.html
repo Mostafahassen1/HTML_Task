@@ -1,30 +1,10 @@
 <!DOCTYPE html>
 <html>
    <head>
+    <link rel="stylesheet" href="CSS/master.CSS">
     <title>GirlDevelopit</title>
     <style>
-        table, th, td {
-         border:1px solid black;
-        }
-         label {
-         margin-bottom: 6px; 
-        display: inline-block; 
-       }
-       fieldset {
-            width: 600px; 
-            padding: 10px; 
-        }
-        .experience-label {
-      margin-bottom: 5px; 
-    }
-
-        .gender-label {
-            display: inline-block;
-            margin-right: 0px; 
-        }
-        .gender-input {
-            margin-right: 10px; 
-        }
+       
 
     </style>
     <script></script>  
@@ -37,12 +17,13 @@
            <img src="f:\1-BDF-world Course web 2\Learning\Learning_HTML\aec4d52b-7c42-4837-812a-4e1a0dde36aa.jpeg" alt="Image description">
 
             <h1>About</h1>
-
+    <div class ="About ">
             <p>it can be intimidating for woman to learn and ask questions when they are in an <br> 
-            <b>extreme minority</b>.While open and welcoming,today's budding developer<br>
-            community is up to <b>91% male</b>. If we can empower more females with the confidence<br>
+            <b class="special">extreme minority</b>.While open and welcoming,today's budding developer<br>
+            community is up to <b class="special" >91% male</b>. If we can empower more females with the confidence<br>
             in their technological capabilities we can being to change the landscape
           </p>
+    </div>
       
 
     <h2>Our Locations</h2>
@@ -86,15 +67,15 @@
 
       <h2>Sign Up!</h2>
       
-      <form >
-        <label >Name: </label>
-        <input type="text"  name="Name" ><br>
+      <form class="form" >
+        <label >Name: </label> <br>
+        <input  type="text"  name="Name" ><br>
 
-        <label>Email:</label>
+        <label>Email:</label><br>
         <input type="email"  name="Email"><br>
 
          
-        <label>Location:</label>
+        <label>Location:</label> <br>
         <select  size="1" multiple>
   
            <option value="New York">New York</option>
@@ -113,11 +94,8 @@
               <input type="radio" name="gender" class="gender-input">
             
           </fieldset>
-
-          
-
           <p class="experience-label">Experience:</p> 
-          <textarea name="message" rows="2" cols="20"> </textarea>
+          <textarea name="message" rows="5" cols="50"> </textarea>
 
         <br>
         <br>
@@ -127,14 +105,15 @@
 
       <br>
       <br>
-
-      <tr>
-        <td><a href="https://www.facebook.com/">Facebook</a></td>
-        <td>|</td>
-        <td><a href="https://twitter.com/">Twitter</a></td>
-        <td>|</td>
-        <td><a href="https://www.flickr.com/">Flickr</a></td>
-    </tr>
+      
+        <tr >
+            <td ><a href="https://www.facebook.com/">Facebook</a></td>
+            <td >|</td>
+            <td  ><a href="https://twitter.com/">Twitter</a></td>
+            <td>|</td>
+            <td><a href="https://www.flickr.com/">Flickr</a></td>
+        </tr>
+   
     
     
    </body>
